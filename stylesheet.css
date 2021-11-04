@@ -61,7 +61,8 @@ nav li a:hover {
 
 #container {
   width: 80%;
-  height: 100%;
+  min-height: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -92,10 +93,25 @@ h2 {
   margin: 20px 0px 0px 0px;
 }
 
-#schedule th {
+#schedule {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+ #schedule th {
+  border: 2px solid black;
+  padding: 10px;
   background-color: #7C00FF;
 }
 
 #schedule td {
+  border: 2px solid black;
+  padding: 10px;
   background-color: #555;
+}
+
+#c1 {
+  width: 20%;
 }
