@@ -1,6 +1,21 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
 body {
-  background-color: #444;
+  background-image:  linear-gradient(-65deg, #00FFFF, #7C00FF, #E73C7E);
   font-family: sans-serif;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
 }
 
 #navigation {
@@ -10,7 +25,7 @@ body {
 nav ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #444;
+  background-color: #222;
   margin: 0;
   padding: 0;
 }
@@ -23,34 +38,64 @@ nav li {
 nav a {
   display: block;
   padding: 8px 20px 8px 20px;
-  color: white;
+  color: #333;
   text-decoration: none;
 }
 
 nav .active {
   background-color: #3ABBFF;
+  color: #FFF;
 }
 
 nav li a:hover {
-  background-color: #111;
-  color: #DDD;
+  background-color: #333;
+  color: #FFF;
 }
 
-#header{
-  background-image:  linear-gradient(to right, #500077, #00FFFF);
+#header {
+  background-color: #444;
   color: #FFF;
   padding: 5px;
   text-align: bottom;
 }
 
 #container {
-  background-color: #FFF;
-  color: #000;
   width: 80%;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
+  background-color: #333;
+  color: #FFF;
 }
 
-td {
+#box {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #555;
+}
+
+#infoTable tr td {
   vertical-align: bottom;
+}
+
+img {
+  border-radius: 10px;
+}
+
+#pInfo {
+  padding-left: 20px;
+}
+
+h2 {
+  margin: 20px 0px 0px 0px;
+}
+
+#schedule th {
+  background-color: #7C00FF;
+}
+
+#schedule td {
+  background-color: #555;
 }
