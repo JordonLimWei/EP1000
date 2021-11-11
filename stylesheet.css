@@ -93,25 +93,25 @@ h2 {
   margin: 20px 0px 0px 0px;
 }
 
-#schedule {
+#schedule, #tools {
   table-layout: fixed;
   width: 100%;
   border: 2px solid black;
   border-collapse: collapse;
 }
 
- #schedule th {
+ #schedule th, #tools th {
   border: 2px solid black;
   padding: 10px;
   background-color: #7C00FF;
 }
 
-#schedule td {
+#schedule td, #tools td {
   border: 2px solid black;
   padding: 10px;
   background-color: #555;
 }
 
 #c1 {
-  width: 20%;
+  width: 30%;
 }
