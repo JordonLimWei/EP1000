@@ -1,13 +1,15 @@
 html {
   height: 100%;
 }
+
 body {
   margin: 0;
   height: 100%;
-  background-image:  linear-gradient(-65deg, #00FFFF, #7C00FF, #E73C7E);
+  background-image: linear-gradient(-65deg, #00FFFF, #7C00FF, #E73C7E);
   font-family: sans-serif;
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
+  background-attachment: fixed;
 }
 
 @keyframes gradient {
@@ -16,6 +18,9 @@ body {
   }
   50%{
     background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
   }
 }
 
