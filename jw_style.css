@@ -5,16 +5,16 @@ body {
 
 #nav a {
   text-decoration: none;
-  color:green;
+  color: green;
 }
 
 h1, h2, h3 {
-  margin:0;
+  margin: 0;
 }
 
 #container {
   background-color: white;
-  width: 1200px;
+  width: 1024px;
   min-height: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -22,7 +22,7 @@ h1, h2, h3 {
 
 #header {
   background-color: #00BDFF;
-  color:white;
+  color: white;
   text-align: center;
   padding: 10px;
 }
@@ -32,13 +32,13 @@ h1, h2, h3 {
 }
 
 #nav {
-  width:180px;
-  float:left;
+  width: 180px;
+  float: left;
 }
 
 #nav ul {
   list-style-type: none;
-  padding:0;
+  padding: 0;
 }
 
 #nav .selected {
@@ -46,14 +46,14 @@ h1, h2, h3 {
 }
 
 #main {
-  width:1000px;
-  float:right;
+  width: 824px;
+  float: right;
 }
 
 #footer {
   clear: both;
-  padding:10px;
-  background-color:#999999;
-  color:white;
-  text-align:right;
+  padding: 10px;
+  background-color: #999999;
+  color: white;
+  text-align: right;
 }

@@ -1,9 +1,9 @@
-html, body {
+html {
   height: 100%;
-  margin: 0;
 }
-
 body {
+  margin: 0;
+  height: 100%;
   background-image:  linear-gradient(-65deg, #00FFFF, #7C00FF, #E73C7E);
   font-family: sans-serif;
   animation: gradient 15s ease infinite;
