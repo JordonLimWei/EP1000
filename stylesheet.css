@@ -7,6 +7,7 @@ body {
   height: 100%;
   background-image: linear-gradient(-65deg, #00FFFF, #7C00FF, #E73C7E);
   font-family: sans-serif;
+  font-size: 1.2vw;
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
@@ -81,6 +82,12 @@ nav li a:hover {
   padding: 10px;
   border-radius: 10px;
   background-color: #555;
+}
+
+#box img {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 90%;
 }
 
 #infoTable tr td {
