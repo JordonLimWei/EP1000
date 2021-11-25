@@ -90,6 +90,11 @@ nav li a:hover {
   width: 90%;
 }
 
+#headerTable td{
+  width: 100%;
+  padding-right: 20px;
+}
+
 #infoTable tr td {
   vertical-align: bottom;
 }
