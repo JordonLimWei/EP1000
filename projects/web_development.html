@@ -10,7 +10,14 @@
         <ul>
           <li><a href="../index.html">Main</a></li>
           <li><a href="../chronology.html">Chronology</a></li>
-          <li><a class="active" href="web_development.html">Projects</a></li>
+          <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Projects</a>
+              <div class="dropdown-content">
+                <a class="active" href="web_development.html">Website<br>Development</a>
+                <a href="3D_Printing.html">3D Printing</a>
+                <a href="cad.html">CAD</a>
+              </div>
+          </li>
           <li><a href="../tools.html">Tools</a></li>
           <li><a href="../about.html">About</a></li>
         </ul>
@@ -101,7 +108,24 @@
         me to put them to use on creating the about page for my website.
       </div>
       <div id="box">
-        <img src="../images/html/main_page.jpg">
+        <table id="imgTable">
+          <tr>
+            <td>
+              <img src="../images/html/main_page.jpg">
+            </td>
+            <td>
+              <img src="../images/html/about_page.jpg">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>Main page</div>
+            </td>
+            <td>
+              <div>About page</div>
+            </td>
+          </tr>
+        </table>
       </div>
       <div>
         <h2>Basics of CSS</h2>
@@ -158,8 +182,12 @@
             </td>
           </tr>
           <tr>
-            <td>This is the about page</td>
-            <td>This is the main page</td>
+            <td>
+              <div>This is the main page</div>
+            </td>
+            <td>
+              <div>This is the about page</div>
+            </td>
           </tr>
         </table>
       </div>
@@ -170,7 +198,9 @@
         top of the page such that the container can have more space to display
         the content without obstruction, also, changing the container width to
         be set in percentage which will be more versatile to varying sizes of
-        browser resolution.
+        browser resolution. Lastly, I would also like to add a dropdown menu for
+        the projects icon to display additional sections without having to make
+        the horizontal navigation bar to be too long.
       </div>
     </div>
     <div id="footer">
