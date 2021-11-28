@@ -134,18 +134,10 @@ img {
   padding-left: 20px;
 }
 
-
 #imgTable {
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-#box img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
 }
 
 #imgTable tr td img{
@@ -156,8 +148,19 @@ img {
 }
 
 #vertImg {
-  width: 100px;
+  width: 25%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#horiImg {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 h2 {
@@ -191,9 +194,10 @@ h2 {
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color:#222;
   color:white;
   text-align:right;
+  font-size: 50%;
 }
