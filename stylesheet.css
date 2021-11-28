@@ -155,6 +155,11 @@ img {
   width: 100%;
 }
 
+#vertImg {
+  width: 100px;
+  height: auto;
+}
+
 h2 {
   margin: 20px 0px 0px 0px;
 }
