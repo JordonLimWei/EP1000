@@ -90,7 +90,7 @@ nav li a:hover {
   width: 90%;
 }
 
-#headerTable td{
+#headerTable td {
   width: 100%;
   padding-right: 20px;
 }
@@ -105,6 +105,21 @@ img {
 
 #pInfo {
   padding-left: 20px;
+}
+
+#imgTable {
+  width: 100%;
+}
+
+#imgTable tr td img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imgTable tr td {
+  padding-left: 50px;
+
 }
 
 h2 {
