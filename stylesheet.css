@@ -97,17 +97,16 @@ li .dropdown {
 #btt {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 30px;
+  bottom: 30px;
+  right: 10px;
   z-index: 99;
   border: none;
   outline: none;
   background-color: #333;
   color: #FFF;
   cursor: pointer;
-  padding: 8px 20px;
+  padding: 20px;
   border-radius: 10px;
-  font-size: 18px;
 }
 
 #btt:hover {
