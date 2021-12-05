@@ -97,6 +97,7 @@ li .dropdown {
 #btt {
   display: none;
   position: fixed;
+
   bottom: 30px;
   right: 10px;
   z-index: 99;
@@ -105,8 +106,9 @@ li .dropdown {
   background-color: #333;
   color: #FFF;
   cursor: pointer;
-  padding: 20px;
+  padding: 20px 10px;
   border-radius: 10px;
+  font-size: 80%;
 }
 
 #btt:hover {
@@ -175,7 +177,7 @@ img {
 }
 
 #horiImg {
-  width: 70%;
+  width: 90%;
   height: auto;
   display: block;
   margin-left: auto;
