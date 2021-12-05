@@ -94,26 +94,6 @@ li .dropdown {
   text-align: bottom;
 }
 
-#btt {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #333;
-  color: #FFF;
-  cursor: pointer;
-  padding: 8px 20px;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-#btt:hover {
-  background-color: #444;
-}
-
 #container {
   width: 80%;
   min-height: 100%;
@@ -219,5 +199,5 @@ h2 {
   background-color:#222;
   color:white;
   text-align:right;
-  font-size: 50%;
+  font-size: 50%; 
 }
