@@ -133,6 +133,10 @@ li .dropdown {
   background-color: #555;
 }
 
+a {
+  color: #84FFFF;
+}
+
 #headerTable td {
   width: 100%;
   padding-right: 20px;
