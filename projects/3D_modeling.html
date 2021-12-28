@@ -1,7 +1,7 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>3D Modeling Page</title>
+    <title>Computer Graphics Page</title>
     <link rel="stylesheet" type="text/css" href="../stylesheet.css">
   </head>
   <body>
@@ -33,9 +33,9 @@
               <a href:"javascript:void(0)" class="dropbtn">Projects</a>
               <div class="dropdown-content">
                 <a href="web_development.html">Website<br>Development</a>
-                <a class="active" href="computer_graphics.html">Computer<br>Graphics</a>
+                <a href="computer_graphics.html">Computer<br>Graphics</a>
                 <a href="cad.html">CAD</a>
-                <a href="3D_modeling.html">3D Modeling</a>
+                <a class="active" href="3D_modeling.html">3D Modeling</a>
                 <a href="3D_Printing.html">3D Printing</a>
               </div>
           </li>
@@ -59,6 +59,221 @@
     <div id="container">
       <div>
         <h1>3D Modeling</h1>
+      </div>
+      <div id="box">
+        3D modeling is the process of using 2D sketches to create a 3D model in
+        the form of a body in a component. In Fusion 360, we have to make sure
+        that the 2D sketches are fully constraint, meaning that the lines are
+        black in colour, and fully dimensioned, only then can we use features to
+        create our 3D model.
+      </div>
+      <div>
+        <h2>Constraints</h2>
+      </div>
+      <div id="box">
+        <img id="horiImg" src="../images/fusion_360/fusion360_constraints.jpg"><br>
+        Here are all the constraints in Fusion 360 and they are used in different
+        scenarios and are helpful in preventing the sketch from being changed
+        accidentally.
+      </div>
+      <div>
+        <h2>Extrusion</h2>
+      </div>
+      <div>
+        Exercise 1: Name Tag
+      </div>
+      <div id="box">
+        Step 1: Creating a 2D sketch of the name tag<br>
+        <img id="horiImg" src="../images/extrusion/ex1p1.jpg"><br>
+        I created this sketch on the x-y plane with the corresponding dimensions and
+        constraints meeting the requirements of length 70mm and width 30mm with
+        a rim ring hole of 4mm, all of it surrounded by a rim 1.5mm thick.
+      </div>
+      <div id="box">
+        Step 2: Extrude the rim<br>
+        <img id="horiImg" src="../images/extrusion/ex1p2.jpg"><br>
+        I extruded the rim to a height of 4mm which is the required height of
+        the name tag.
+      </div>
+      <div id="box">
+        Step 3: Extrude the base<br>
+        <img id="horiImg" src="../images/extrusion/ex1p3.jpg"><br>
+        Next, I extruded the main base to a height of 1.5mm as required.
+      </div>
+      <div id="box">
+        Step 4: Creating a 2D sketch of my name<br>
+        <img id="horiImg" src="../images/extrusion/ex1p4.jpg"><br>
+        With the final feature, my name, I sketched it using the text feature
+        starting from the top surface of the rim as the sketch plane, making
+        use of Arial font, making it bold with a height of 12mm and center aligned
+        both vertially and horizontally. My name is also offset 10mm from the
+        center of the ring hole.
+      </div>
+      <div id="box">
+        Step 5: Extrude the 2D sketch of my name<br>
+        <img id="horiImg" src="../images/extrusion/ex1p5.jpg"><br>
+        Finally, I extruded the 2D sketch of my name to the surface of the main
+        base with an offset of -0.5mm.
+      </div>
+      <div id="box">
+        Final model<br>
+        <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e430e34b49d6848affb?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      </div>
+      <div>
+        Exercise 2: Lego Brick
+      </div>
+      <div id="box">
+        With reference and guidence from this video, I am able to create this 3D
+        model of a lego brick.
+      </div>
+      <div id="box">
+        Final model<br>
+        <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e43e7f37176546410cc?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      </div>
+      <div>
+        Exercise 3: Extrudes & Planes
+      </div>
+      <div id="box">
+        Step 1: Creating a cube<br>
+        <img id="horiImg" src="../images/extrusion/ex3p1.jpg"><br>
+        Using the x-y plane, I created the 2D sketch of a square 20mmx20mm and
+        extruded it to a height of 20mm to create this 3D model of a cube.
+      </div>
+      <div id="box">
+        Step 2: Creating the first copy<br>
+        <img id="horiImg" src="../images/extrusion/ex3p2.jpg"><br>
+        By right clicking, I select the move/copy feature to create the second
+        cube right beside the first one.
+      </div>
+      <div id="box">
+        Step 3: Creating the whole stack<br>
+        <img id="horiImg" src="../images/extrusion/ex3p3.jpg"><br>
+        By repeating the previous step continously, I finaly created this model.
+      </div>
+      <div id="box">
+        Step 4: Creating a shell<br>
+        <img id="horiImg" src="../images/extrusion/ex3p4.jpg"><br>
+        Using the shell feature, I selected the bottom surface to create the
+        shell with an inside thickness of 4mm.
+      </div>
+      <div id="box">
+        Final model<br>
+        <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e434dd0ceba4eb78ba9?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      </div>
+      <div>
+        <h2>Revolve</h2>
+      </div>
+      <div>
+        Exercise 1: Mug with handle
+      </div>
+      <div id="box">
+        Step 1: Creating the revolve profile<br>
+        <img id="horiImg" src="../images/revolve/ex1p1.jpg"><br>
+        I created this sketch on the x-z plane, following the requirements of
+        diameter 50mm and height 80mm with thickness of 2.5mm. I also added an
+        arc at the base and rounded the base corner with a 2mm fillet. The top
+        rim of the mug is rounded off in tengent to the mug thickness.
+      </div>
+      <div id="box">
+        Step 2: Revolve the main Mug<br>
+        <img id="horiImg" src="../images/revolve/ex1p2.jpg"><br>
+        Using the revolve feature, I revolved the 2D profile around the z-axis
+        and created the 3D model of the main mug.
+      </div>
+      <div id="box">
+        Step 3: Creating the 2D sketch of the handle<br>
+        <img id="horiImg" src="../images/revolve/ex1p3.jpg"><br>
+        I created this sketch on the x-z plane, following the tip for the
+        corresponding dimensions and decided on setting the height of the handle
+        to be 50mm.
+      </div>
+      <div id="box">
+        Step 4: Additional step for creation of handle<br>
+        <img id="horiImg" src="../images/revolve/ex1p4.jpg"><br>
+        From this image, you can see that I added an additional rectangle that
+        intersects into the cross-section of the mug which is highlighted red,
+        this is done to the bottom part of the handle as well. The purpose for
+        doing so is to prevent for the formation of a gap when extruding the
+        handle due to the curvature of the mug.
+      </div>
+      <div id="box">
+        Step 5: Extrude the handle
+        <img id="horiImg" src="../images/revolve/ex1p5.jpg"><br>
+        Using the extrude feature, I selected the 2D sketch of the handle and
+        extruded it symmetrically by 6mm.
+      </div>
+      <div id="box">
+        Final model<br>
+        <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e43ef38f555aa342bd8?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      </div>
+      <div>
+        Exercise 2: Hex Nut
+      </div>
+      <div id="box">
+        Final model<br>
+        <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e434b0152747194450d?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      </div>
+      <div>
+        Exercise 3: Chess piece - knight
+      </div>
+      <div id="box">
+        Step 1: Creating the frame for the knight image
+        <img id="horiImg" src="../images/knight_images/knight_step1.jpg"><br>
+        I created a rectangular frame with dimensions, 30mm by 50mm, which allows
+        me to know the rough estimate of the size of the knights chess piece.
+      </div>
+      <div id="box">
+        Step 2: Inserting the knights piece image
+        <img id="horiImg" src="../images/knight_images/knight_step2.jpg"><br>
+        Using the insert feature, I added the image of the chess piece with the
+        corresponding settings.
+      </div>
+      <div id="box">
+        Step 3: Creating the 2D sketch for the base of the chess piece
+        <img id="horiImg" src="../images/knight_images/knight_step3.jpg"><br>
+        With reference to the image, I created this 2D sketch for the base of
+        the chess piece.
+      </div>
+      <div id="box">
+        Step 4: Revolve the base of the chess piece
+        <img id="horiImg" src="../images/knight_images/knight_step4.jpg"><br>
+        Using the revolve feature, I created the 3D model of the base of the
+        chess piece using the z-axis.
+      </div>
+      <div id="box">
+        Step 5: Shell the base of the chess piece
+        <img id="horiImg" src="../images/knight_images/knight_step5-2.jpg"><br>
+        Using the shell feature, I selected the bottom face of the base to shell
+        with an inside thickness of 3mm.
+      </div>
+      <div id="box">
+        Step 6: Creating the 2D sketch of the horse head
+        <img id="horiImg" src="../images/knight_images/knight_step6-2.jpg"><br>
+        Using the spline feature, I created the outline of the features of the
+        horse head with reference to the image.
+      </div>
+      <div id="box">
+        Step 7: Extrude the horse head
+        <img id="horiImg" src="../images/knight_images/knight_step7.jpg"><br>
+        Selecting only the horse head and the mane as the sketch plane, I extruded
+        them to a thickness of 2.5mm symmetrically.
+      </div>
+      <div id="box">
+        Step 8: Extrude the horse head and features
+        <img id="horiImg" src="../images/knight_images/knight_step8.jpg"><br>
+        Selecting the horse head including the eyes and ears without the mane as
+        the sketch plane, I extruded them to a thickness of 1.25mm offset from
+        the surface of the previous extrusion.
+      </div>
+      <div id="box">
+        Step 9: Mirror the horse head and features
+        <img id="horiImg" src="../images/knight_images/knight_step9.jpg"><br>
+        Using the mirror feature, I mirrored the horse head and features extrusion
+        using the y-z plane.
+      </div>
+      <div id="box">
+        Final model<br>
+        <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e43e0d7fc6ee626e703?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
       </div>
     </div>
     <div id="footer">
