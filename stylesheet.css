@@ -199,20 +199,20 @@ h2 {
   margin: 20px 0px 0px 0px;
 }
 
-#schedule, #tools {
+#schedule, #tools, #make, #bom {
   table-layout: fixed;
   width: 100%;
   border: 2px solid black;
   border-collapse: collapse;
 }
 
- #schedule th, #tools th {
+ #schedule th, #tools th, #bom th {
   border: 2px solid black;
   padding: 10px;
   background-color: #7C00FF;
 }
 
-#schedule td, #tools td {
+#schedule td, #tools td, #make td, #bom td {
   border: 2px solid black;
   padding: 10px;
   background-color: #555;
@@ -220,6 +220,14 @@ h2 {
 
 #c1 {
   width: 30%;
+}
+
+#bomc1, #bomc2 {
+  width: 10%;
+}
+
+#bomc4 {
+  width: 20%;
 }
 
 #footer {
