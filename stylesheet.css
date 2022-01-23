@@ -195,6 +195,15 @@ img, iframe {
   margin-right: auto;
 }
 
+#tinker {
+  width: 90%;
+  height: 550px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h2 {
   margin: 20px 0px 0px 0px;
 }
