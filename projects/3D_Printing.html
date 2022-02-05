@@ -1,3 +1,128 @@
-wall thickness: 0.2-0.25mm
-infill: 10-20%
-rule of thumb: always set the layer height to half of the material diameter
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3D Printing Page</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main</a></li>
+          <li><a href="../chronology.html">Chronology</a></li>
+          <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Projects</a>
+              <div class="dropdown-content">
+                <a href="web_development.html">Website<br>Development</a>
+                <a href="computer_graphics.html">Computer<br>Graphics</a>
+                <a href="cad.html">CAD</a>
+                <a href="3D_modeling.html">3D Modeling</a>
+                <a class="active" href="3D_Printing.html">3D Printing</a>
+                <a href="arduino.html">Embedded Systems</a>
+              </div>
+          </li>
+          <li><a href="../final_project.html">Final Project</a></li>
+          <li><a href="../tools.html">Tools</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+          <td>
+            <h1>EP1000</h1>
+          </td>
+          <td>
+            <img src="../images/logo.png" style="width:106px;height:84.5px">
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="container">
+      <div>
+        <h1>3D Printing</h1>
+      </div>
+      <div>
+        <h2>3D Printing Certificate</h2>
+      </div>
+      <div id="box">
+        <img id="horiImg" src="../images/3D_printing/3D_printing_cert.jpg"><br>
+      </div>
+      <div>
+        <h2>Machine and Settings</h2>
+      </div>
+      <div id="box">
+        <table id="infoTable">
+          <tr>
+            <td>
+              <img id="machine" src="../images/3D_printing/ultimaker2plus.jpg">
+            </td>
+            <td>
+              <table id="settings">
+                <tr>
+                  <td>Machine</td>
+                  <td>Ultimaker 2+</td>
+                </tr>
+                <tr>
+                  <td>Build Volume(mm)</td>
+                  <td>210x210x205</td>
+                </tr>
+                <tr>
+                  <td>Filament</td>
+                  <td>Polylactic Acid(PLA)</td>
+                </tr>
+                <tr>
+                  <td>Filament Dia.(mm)</td>
+                  <td>2.85</td>
+                </tr>
+                <tr>
+                  <td>Layer Height(mm)</td>
+                  <td>0.2-0.25</td>
+                </tr>
+                <tr>
+                  <td>Infill</td>
+                  <td>10-20%</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h2>Knight Chess Piece</h2>
+      </div>
+      <div id="box">
+        Before looking at how I 3D printed this knight chess piece, have a look
+        at how I made the 3D model in Fusion 360
+        <a href="3D_modeling.html#Exercise 3: Chess piece - knight">[here]</a>.
+        The 3D model in Fusion 360 is first exported into an stereolithography(STL)
+        file, then I imported it into CURA which is the software I use to slice
+        the STL file into a gcode file to be saved into a SD card to be read by
+        the 3D printing machine.
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; 2021 Jordon.
+    </div>
+  </body>
+</html>

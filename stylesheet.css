@@ -155,6 +155,11 @@ img, iframe {
   height: auto;
 }
 
+#machine {
+  width: 400px;
+  height: auto;
+}
+
 #pInfo {
   padding-left: 20px;
 }
@@ -208,7 +213,7 @@ h2 {
   margin: 20px 0px 0px 0px;
 }
 
-#schedule, #tools, #make, #bom {
+#schedule, #tools, #make, #bom, #settings {
   table-layout: fixed;
   width: 100%;
   border: 2px solid black;
@@ -221,7 +226,7 @@ h2 {
   background-color: #7C00FF;
 }
 
-#schedule td, #tools td, #make td, #bom td {
+#schedule td, #tools td, #make td, #bom td, #settings td {
   border: 2px solid black;
   padding: 10px;
   background-color: #555;
