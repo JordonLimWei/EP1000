@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Computer Controlled Cutting Page</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main</a></li>
+          <li><a href="../chronology.html">Chronology</a></li>
+          <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Projects</a>
+              <div class="dropdown-content">
+                <a href="web_development.html">Website<br>Development</a>
+                <a href="computer_graphics.html">Computer<br>Graphics</a>
+                <a href="cad.html">CAD</a>
+                <a href="3D_modeling.html">3D Modeling</a>
+                <a href="3D_Printing.html">3D Printing</a>
+                <a class="active" href="computer_controlled_cutting.html">Computer Controlled<br>Cutting</a>
+                <a href="arduino.html">Embedded Systems</a>
+              </div>
+          </li>
+          <li><a href="../final_project.html">Final Project</a></li>
+          <li><a href="../tools.html">Tools</a></li>
+          <li><a href="../about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+          <td>
+            <h1>EP1000</h1>
+          </td>
+          <td>
+            <img src="../images/logo.png" style="width:106px;height:84.5px">
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="container">
+      <div>
+        <h1>Computer Controlled Cutting</h1>
+      </div>
+      <div>
+        <h2>Laser Cutting Certificate</h2>
+      </div>
+      <div id="box">
+        <img id="horiImg" src="../images/laser_cutting/laser_cutting_cert.jpg"><br>
+      </div>
+      <div>
+        <h2>Music Box</h2>
+      </div>
+      <div id="box">
+        Before looking at how I laser cut this music box, have a look at how I
+        made the 3D model in Fusion 360
+        <a href="3D_modeling.html#Assignment: Music Box">[here]</a>.
+      </div>
+      <div id="box">
+        Before I can export the 3D model into .dxf format, I have to lay flat all
+        the parts of the music box. Thanks to this <a href="https://www.youtube.com/watch?v=PN4bd4rr4z8">video</a>,
+        I learnt a new feature of Fusion 360.
+        <img id="horiImg" src="../images/laser_cutting/music_box/layflat.jpg"><br>
+        Go to the manufacturing workspace> additive> create manufacturing model>
+        right-click the manufacturing model> edit manufacturing model> modify> arrange.
+      </div>
+      <div id="box">
+        Export as DXF
+        <img id="horiImg" src="../images/laser_cutting/music_box/sketch_export.jpg"><br>
+        Right-click edit manufacturing model allows me to save the layflat sketch
+        as a dxf file.
+      </div>
+      <div id="box">
+        Import into Illustrator
+        <img id="horiImg" src="../images/laser_cutting/music_box/sketch_import.jpg"><br>
+        After importing into Illustrator, I check to see if the file is to scale
+        such that it will be laser cut to size.
+      </div>
+      <div>
+        <h2>Machine and Settings</h2>
+      </div>
+      <div id="box">
+        <table id="infoTable">
+          <tr>
+            <td>
+              <img id="machine" src="../images/laser_cutting/universal_vls6.60.jpg">
+            </td>
+            <td>
+              <table id="settings">
+                <tr>
+                  <td>Machine</td>
+                  <td>Universal VLS6.60</td>
+                </tr>
+                <tr>
+                  <td>Work Area(mm)</td>
+                  <td>813x457</td>
+                </tr>
+                <tr>
+                  <td>Material</td>
+                  <td>Plywood</td>
+                </tr>
+                <tr>
+                  <td>Material Thickness</td>
+                  <td>3mm</td>
+                </tr>
+                <tr>
+                  <td>Cut Settings</td>
+                  <td>
+                    <ul>
+                      <li>Power: 40%</li>
+                      <li>Speed: 16%</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Engrave Settings</td>
+                  <td>
+                    <ul>
+                      <li>Power: 20%</li>
+                      <li>Speed: 70%</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h2>Final Product</h2>
+      </div>
+      <div id="box">
+        <img id="horiImg" src="../images/music_box_final.jpg"><br>
+        After cutting out the parts, I have to use a hand mill to drill out the
+        hole for the handle of the music instrument and the end result came out
+        pretty well.
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; 2022 Jordon.
+    </div>
+  </body>
+</html>

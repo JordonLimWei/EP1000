@@ -37,6 +37,7 @@
                 <a href="cad.html">CAD</a>
                 <a class="active" href="3D_modeling.html">3D Modeling</a>
                 <a href="3D_Printing.html">3D Printing</a>
+                <a href="computer_controlled_cutting.html">Computer Controlled<br>Cutting</a>
                 <a href="arduino.html">Embedded Systems</a>
               </div>
           </li>
@@ -64,6 +65,7 @@
       </div>
       <div id="box">
         <a href="#Exercise 3: Chess piece - knight">[Exercise 3: Chess piece - knight]</a><br>
+        <a href="#Assignment: Music Box">[Assignment: Music Box]</a><br>
       </div>
       <div id="box">
         3D modeling is the process of using 2D sketches to create a 3D model in
@@ -280,9 +282,249 @@
         Final model<br>
         <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e43e0d7fc6ee626e703?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
       </div>
+      <div id="Assignment: Music Box">
+        <h2>Assignment: Music Box</h2>
+      </div>
+      <div>
+        <h2>Parameters</h2>
+      </div>
+      <div id="box">
+        <img id="horiImg" src="../images/laser_cutting/music_box/parameters.jpg"><br>
+        Here are all the parameters that I used to define all the dimension of
+        the music box.
+      </div>
+      <div id="box">
+        Step 1: Create 2D sketch of front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s1.jpg"><br>
+        Selecting the XZ plane, I created the 2D sketch of the front panel
+        with dimensions defined by the functions in the parameters,
+        box_length and box_height.
+      </div>
+      <div id="box">
+        Step 2: Extrude front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s2.jpg"><br>
+        Using the 2D sketch of the front panel, I extruded it to the function of
+        thickness defined in the parameters, thickness.
+      </div>
+      <div id="box">
+        Step 3: Creating 2D sketch of the bottom tab of the front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s3.jpg"><br>
+        Selecting the front face of the front panel, I created a 2D sketch of the
+        first tab at the bottom of the panel. The dimensions are defined using
+        the parameters, tab_length and tab_height.
+      </div>
+      <div id="box">
+        Step 4: Extrude cut the bottom tab of the front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s4.jpg"><br>
+        Using the 2D sketch of the bottom tab, I extrude cut, through all, the
+        front panel to form the first tab.
+      </div>
+      <div id="box">
+        Step 5: Rectangular pattern to create remaining bottom tabs of the front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s5.jpg"><br>
+        Using rectangular pattern, I selected the extrude cut feature, direction
+        in the x-axis, distance type by spacing, quantity by the parameter,
+        num_tab_L-1, distance by the parameter function, -( tab_length + tab_space ).
+        This forms the remaining bottom tabs of the front panel.
+      </div>
+      <div id="box">
+        Step 6: Creating the 2D sketch of the side tab of the front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s6.jpg"><br>
+        Selecting the front face of the front panel, I created a 2D sketch of the
+        side tabs of the panel. The dimensions are also defined using the previously
+        mentioned parameters for a tab.
+      </div>
+      <div id="box">
+        Step 7: Extrude cut the side tabs of the front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s7.jpg"><br>
+        Using the 2D sketch of the side tabs, I extrude cut, through all, the
+        front panel to form the side tabs for the panel.
+      </div>
+      <div id="box">
+        Step 8: Creating a middle plane of the front plane
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s8.jpg"><br>
+        Using the YZ plane, I created another plane set to the distance of the
+        parameter function of box_length / 2.
+      </div>
+      <div id="box">
+        Step 9: Mirror the left side tab to the right
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s9.jpg"><br>
+        Using the previously created plane, I mirrored the side tab feature to
+        create the tabs on the right side.
+      </div>
+      <div id="box">
+        Step 10: Creating the 2D sketch of the left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s10.jpg"><br>
+        Using the YZ plane, I created a 2D sketch of the left panel defined using
+        the parameter, box_width.
+      </div>
+      <div id="box">
+        Step 11: Extruding left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s11.jpg"><br>
+        Using the 2D sketch of the left panel, I extruded it to the function of
+        thickness defined in the parameters, thickness.
+      </div>
+      <div id="box">
+        Step 12: Creating 2D sketch of the bottom tab of the left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s12.jpg"><br>
+        Selecting the front face of the left panel, I created a 2D sketch of the
+        first tab at the bottom of the panel. The dimensions are defined using
+        the parameters, tab_length and tab_height.
+      </div>
+      <div id="box">
+        Step 13: Extrude cut the bottom tab of the left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s13.jpg"><br>
+        Using the 2D sketch of the bottom tab, I extrude cut, through all, the
+        left panel to form the first tab.
+      </div>
+      <div id="box">
+        Step 14: Rectangular pattern to create remaining bottom tabs of the left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s14.jpg"><br>
+        Using rectangular pattern, I selected the extrude cut feature, direction
+        in the y-axis, distance type by spacing, quantity by the parameter,
+        num_tab_W-1, distance by the parameter function, -( tab_length + tab_space ).
+        This forms the remaining bottom tabs of the left panel.
+      </div>
+      <div id="box">
+        Step 15: Creating right side tabs of the left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s15.jpg"><br>
+        Using the combine feature, I selected the target body as the left panel
+        and the tool bodies as the front panel, operation cut, checking the keep
+        tools box, to form the right side tabs of the left panel.
+      </div>
+      <div id="box">
+        Step 16: Creating a middle plane of the left plane
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s16.jpg"><br>
+        Using the XZ plane, I created another plane set to the distance of the
+        parameter function of box_width / 2.
+      </div>
+      <div id="box">
+        Step 17: Creating the back panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s17.jpg"><br>
+        Using the previously created plane, I mirrored the front panel body to
+        create the back panel.
+      </div>
+      <div id="box">
+        Step 18: Creating left side tabs of the left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s18.jpg"><br>
+        Using the combine feature, I selected the target body as the left panel
+        and the tool bodies as the back panel, operation cut, checking the keep
+        tools box, to form the left side tabs of the left panel.
+      </div>
+      <div id="box">
+        Step 19: Creating the right panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s19.jpg"><br>
+        Using the previously created middle plane from the YZ plane, I mirrored
+        the left panel body to create the right panel.
+      </div>
+      <div id="box">
+        Step 20: Creating the 2D sketch of the bottom panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s20.jpg"><br>
+        Selecting the XY plane, I created the 2D sketch of the bottom panel
+        with dimensions defined by the functions in the parameters,
+        box_length and box_width.
+      </div>
+      <div id="box">
+        Step 21: Extrude bottom panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s21.jpg"><br>
+        Using the 2D sketch of the bottom panel, I extruded it to the function of
+        thickness defined in the parameters, thickness.
+      </div>
+      <div id="box">
+        Step 22: Creating the tabs of the bottom panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s22.jpg"><br>
+        Using the combine feature, I selected the target body as the bottom panel
+        and the tool bodies as the front, back, left, right panels, operation cut,
+        checking the keep tools box, to form the tabs of the bottom panel.
+      </div>
+      <div id="box">
+        Step 23: Creating an offset top plane
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s23.jpg"><br>
+        Selecting the top surface of the back panel, setting a distance down by
+        3mm, I create an offset plane so that I can create the lid.
+      </div>
+      <div id="box">
+        Step 24: Create the 2D sketch of the lid
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s24.jpg"><br>
+        Selecting the previously created plane, I created the 2D sketch of the
+        lid panel with dimensions defined by the functions in the parameters,
+        hinge_width, lip_length and lip_width, as well as an offset of 1mm on
+        each side from the side panels.
+      </div>
+      <div id="box">
+        Step 25: Extrude lid panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s25.jpg"><br>
+        Using the 2D sketch of the lid panel, I extruded it to the function of
+        thickness defined in the parameters, thickness, in the symmetric direction.
+      </div>
+      <div id="box">
+        Step 26: Create the 2D sketch of the hinge hole of the left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s26.jpg"><br>
+        Selecting the front face of the left panel, I created a 2D sketch of the
+        hinge hole of the left panel. The dimensions are also defined as in the
+        image.
+      </div>
+      <div id="box">
+        Step 27: Extrude cut the hinge hole of the left panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s27.jpg"><br>
+        Using the 2D sketch of the hinge hole, I extrude cut, through all, selecting
+        only the left panel and right panel to form the hinge holes.
+      </div>
+      <div id="box">
+        Step 28: Create the 2D sketch of the lip slot of the front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s28.jpg"><br>
+        Selecting the front face of the front panel, I created the 2D sketch of
+        the lip slot with dimensions defined by the functions in the parameters,
+        lip_length, as well as to the depth of the bottom face of the lid panel.
+      </div>
+      <div id="box">
+        Step 29: Extrude cut the lip slot of the front panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s29.jpg"><br>
+        Using the 2D sketch of the lip slot, I extrude cut, to object, selecting
+        the back face of the front panel to form the lip slot.
+      </div>
+      <div id="box">
+        Step 30: Create the 2D sketch of the pattern on the lid panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s30.jpg"><br>
+        Selecting the top face of the lid panel, I created a 2D sketch of the
+        pattern of the lid panel. The dimensions are also defined as in the image.
+        This pattern is meant to look something like a speaker grill.
+      </div>
+      <div id="box">
+        Step 31: Extrude cut the first set of pattern on the lid panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s31.jpg"><br>
+        Using the 2D sketch of the pattern, I extrude cut, to object, selecting
+        the bottom face of the lid panel to form the first set pattern.
+      </div>
+      <div id="box">
+        Step 32: Rectangular pattern to create remaining first set of pattern of the lid panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s32.jpg"><br>
+        Using rectangular pattern, I selected the extrude cut feature, direction
+        in the length and width of the lid panel, distance type by spacing,
+        quantity 5 and 3, distance -12mm and 12mm. This forms the first set
+        pattern of the lid panel.
+      </div>
+      <div id="box">
+        Step 33: Extrude cut the second set of pattern on the lid panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s33.jpg"><br>
+        Using the 2D sketch of the pattern, I extrude cut, to object, selecting
+        the bottom face of the lid panel to form the second set pattern.
+      </div>
+      <div id="box">
+        Step 34: Rectangular pattern to create remaining second set of pattern of the lid panel
+        <img id="horiImg" src="../images/laser_cutting/music_box/mb_s34.jpg"><br>
+        Using rectangular pattern, I selected the second extrude cut feature, direction
+        in the length and width of the lid panel, distance type by spacing,
+        quantity 4 and 3, distance -12mm and -12mm. This forms the remaining
+        pattern of the lid panel.
+      </div>
+      <div id="box">
+        Final Model<br>
+        <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e4376a6e34fccaf2a0e?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      </div>
     </div>
     <div id="footer">
-      Copyright &copy; 2021 Jordon.
+      Copyright &copy; 2022 Jordon.
     </div>
   </body>
 </html>
