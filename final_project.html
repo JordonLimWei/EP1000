@@ -80,22 +80,22 @@
         The Macro Numpad is simply what is named, it acts as a numberpad as
         well as a macro pad which have mapped keys to assist the user with work
         and help to make the use of editing softwares much easier and
-        efficient. It has a total of 3 layouts, and 1 default layout which is the
+        efficient. It has a total of 2 layouts, and 1 default layout which is the
         number pad, you can be toggle between the layouts at any time. This
         device can be plugged into a desktop, laptop or any device that has the
-        USB type A port and it can be used on that device.
+        USB type A port and to the Macro Numpad through a micro USB cable. The
+        Macro Numpad can then be used on that connected device.
       </div>
       <div>
         <h2>What are it's features?</h2>
       </div>
       <div id="box">
         Some of the features of the Macro Numpad include:<br>
-        <li>4x4 membrane keypad with 3 layouts and default number pad:</li>
+        <li>4x4 membrane keypad with 2 layouts and default number pad:</li>
         <ul>
           <li>Default layout: Number pad</li>
           <li>Layout 1: Editing functions(select all, cut, copy, paste, undo, redo, snip, save)</li>
           <li>Layout 2: Discord funstions(server cycling, channel cycling, mute, deafen, share your screen)</li>
-          <li>Layout 3: Media functions(Pause/play, increase volume, decrease volume, mute)</li>
         </ul>
         <li>3 available LEDs lights up to indicate the current layout of the 3 mapped layouts</li>
       </div>
@@ -107,13 +107,13 @@
         shall design the product, I was curious to see if there is anyone who
         did something similar to how I am wanting to make my product. To my
         surprise, there is someone who took this module in 2021 semester 1, he
-        goes by the name of Lynn, who did a RGB macropad which something really
-        similar to what I have been wanting to make. The main features for his
+        goes by the name of Lynn, who did a RGB macropad which is something
+        similar to what I have been wanting to make.<br>The main features for his
         macropad are some basic functions such as editing and media functions, as
-        well as the toggleable RGB lighting. The design of his macropad is also
+        well as toggleable RGB lighting. The design of his macropad is also
         really compact and smart, such as the 3D printed RGB support acting as
         the support for the RGB light strip, a mount for the keypad as well as
-        slots to install side panel. He also made a mount for his Arduino
+        slots to install the side plates. He also made a mount for his Arduino
         micro-controller not only to fix the micro-controller in place, but also
         to protect the input port of the Arduino board. With all these positives
         of Lynn's design, I would like to incorprate them into my product as well
@@ -131,12 +131,12 @@
       <table id="make">
         <tr>
           <td id="c1">CAD Design, Graphics</td>
-          <td>Side panels, top plate, base plate, back plate, keypad support frame,
-            spacers, LED mount, Pro Micro mount, feet</td>
+          <td>Side panels, top plate, base plate, back plate, keypad plate,
+            keypad support frame, spacers, LED mount, Pro Micro mount, feet</td>
         </tr>
         <tr>
           <td>Laser cutting</td>
-          <td>Side panels, top plate, base plate, back plate</td>
+          <td>Side panels, top plate, base plate, back plate, keypad plate</td>
         </tr>
         <tr>
           <td>3D printing</td>
@@ -206,31 +206,291 @@
         size due to contraction after cooling, I made sure to leave at least a
         0.2mm clearance for any slide fit.
       </div>
+      <div id="box">
+        3D model
+        <iframe id="model" src="https://ichat2701.autodesk360.com/shares/public/SH35dfcQT936092f0e43ea99d03b3de4494a?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      </div>
       <div>
         <h2>3D printed parts<h2>
       </div>
       <div id="box">
-        Settings used for most of the parts
-        <img>
-        Here are all the 3D printed parts
+        Print Settings (For keypad support frame, spacers, LED mount and feet)<br>
+        <table id="infoTable">
+          <tr>
+            <td><img id="vertiImg" src="images/final_project/3D_printing/print_settings1.jpg"></td>
+            <td><img id="vertiImg" src="images/final_project/3D_printing/print_settings2.jpg"></td>
+          </tr>
+        </table>
+      </div>
+      <div id="box">
+        Print Settings (For pro micro mount)<br>
+        <table id="infoTable">
+          <tr>
+            <td><img id="vertiImg" src="images/final_project/3D_printing/print_settings1.jpg"></td>
+            <td><img id="vertiImg" src="images/final_project/3D_printing/print_settings3.jpg"></td>
+          </tr>
+        </table>
+        These settings are only for the pro micro mount since the print requires
+        supports to 3D print it successfully.
+      </div>
+      <div id="box">
+        Successfully 3D printed parts
+        <img id="horiImg" src="images/final_project/3D_printing/3D_printed_parts.jpg">
+        Here are all the 3D printed parts successfully printed.
+      </div>
+      <div id="box">
+        Here are the download links for the 3D printed parts in .gcode file format:<br>
+        <a href="3D_print_files/frame(56mins).gcode" download>Keypad support frame</a><br>
+        <a href="3D_print_files/spacers(4mins).gcode" download>Spacers</a><br>
+        <a href="3D_print_files/LED_mount(15mins).gcode" download>LED mount</a><br>
+        <a href="3D_print_files/micro_mount(11mins).gcode" download>Pro micro mount</a><br>
+        <a href="3D_print_files/feet(9mins).gcode" download>Feet</a>
       </div>
       <div>
         <h2>Laser cut parts</h2>
       </div>
       <div id="box">
-        Here are all the laser cut parts
+        Successfully laser cut parts
+        <img id="horiImg" src="images/final_project/laser_cutting/laser_cut_parts.jpg">
+        Here are all the laser cut parts successfully cut.
+      </div>
+      <div id="box">
+        Here are the download links for the laser cut parts in .dxf file format:<br>
+        <a href="laser_cut_files/Side_Plate.dxf" download>Side plate</a><br>
+        <a href="laser_cut_files/Top_Plate.dxf" download>Top plate</a><br>
+        <a href="laser_cut_files/Base_Plate.dxf" download>Base plate</a><br>
+        <a href="laser_cut_files/Back_Plate.dxf" download>Back plate</a><br>
+        <a href="laser_cut_files/Keypad_Plate.dxf" download>Keypad plate</a>
+      </div>
+      <div id="box">
+        Here are the download links for the laser cut parts in .svg file format:<br>
+        <a href="laser_cut_files/Side_Plate.svg" download>Side plate</a><br>
+        <a href="laser_cut_files/Top_Plate.svg" download>Top plate</a><br>
+        <a href="laser_cut_files/Base_Plate.svg" download>Base plate</a><br>
+        <a href="laser_cut_files/Back_Plate.svg" download>Back plate</a><br>
+        <a href="laser_cut_files/Keypad_Plate.svg" download>Keypad plate</a>
+      </div>
+      <div>
+        Electronics
+      </div>
+      <div id="box">
+        Wiring Diagram
+        <img id="horiImg" src="images/final_project/electronics/wire_diagram.svg">
+      </div>
+      <div id="box">
+        Soldered Arduino pro micro
+        <img id="horiImg" src="images/final_project/electronics/soldered.jpg"><br>
+        Here is how the soldered Arduino looks. As you can see, I did not
+        solder the LED directly to the resistor and ground wires due to the
+        need to assemble the LED mount first before connecting the LEDs. Instead,
+        I made use of female connecting wires to act as connecting ports to connect
+        the LEDs later during assembly.This also acts as future proofing where
+        if one of your LEDs might not be working, you can just disconnect the
+        wires and replace the LED instead of having to resolder everything.
+      </div>
+      <div>
+        Arduino IDE code
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/arduino/code1.jpg">
+        Here I included two libraries, Keypad.h by Mark Stanley and Alexander Brevig
+        and Keyboard.h by Arduino. The Keypad.h library includes functions that
+        allow me to incorprate the 4x4 matrix keypad while the Keyboard.h library
+        allows me to do keyboard functions.
+        Click this <a href="https://playground.arduino.cc/Code/Keypad/">link</a>
+        to learn more about the various funtions for the Keypad.h library.
+        And click this <a href="https://www.arduino.cc/reference/en/language/functions/usb/keyboard/">link</a>
+        to learn more about the various funtions for the Keyboard.h library.<br>
+        <br>
+        <img id="horiImg" src="images/final_project/arduino/code2.jpg">
+        With the Keypad.h library installed, here is how you would define your
+        4x4 matrix keypad.<br>
+        <br>
+        <img id="horiImg" src="images/final_project/arduino/code3.jpg">
+        From this set of codes, the .getKey gets the key that is pressed on the
+        keypad. This then allows for the case 'key' to do a digital.write('-')
+        where - is the keypad number pressed. Here you can replace the '-' in
+        digital.write('-') to any set of characters that you may want to type,
+        in a way it kind of acts like a Serial.println().<br>
+        <br >
+        <img id="horiImg" src="images/final_project/arduino/code4.jpg">
+        From this set of codes, instead of using digital.write('-') to do an
+        character output, in this case I used digital.press('-') to do key presses
+        of key from your keyboard. This function allows you to do digital presses
+        of any key on your keyboard and '-' can be modified to any modifier key.
+        Click this <a href="https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/">link</a>
+        to see the list of modifier keys available. Do take not that when you
+        do a digital.press('-'), the key assigned will continuously be pressed
+        until you do a digital.release('-').
+      </div>
+      <div id="box">
+        Fully completed code<br>
+        Click <a href="arduino_files/macro_numpad.ino" download>here</a> to
+        download the full code and modify it to your liking for your own Macro
+        Numpad.
       </div>
       <div>
         <h2>Full assembly</h2>
       </div>
       <div id="box">
         Step 1
+        <img id="horiImg" src="images/final_project/assembly/step1_1.jpg"><br>
         Take 2 M3x10 screw, 2 M3 Nut, 2 M3 washer, back plate and Pro Micro mount.
-
-        And assemble them like so.
-
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step1_2.jpg"><br>
+        And assemble them like so, with the washer and nut screwed onto the screw
+        on the other side. When this is done, you can snap your arduino pro micro
+        into the mount.
+      </div>
+      <div id="box">
         Step 2
-        Take 4 M4x25 screw, 4 foots and the base plate
+        <img id="horiImg" src="images/final_project/assembly/step2_1.jpg"><br>
+        Take 4 M4x25 screw, 4 foots and the base plate.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step2_2.jpg"><br>
+        Here I slide fit the foot to the head of the screws and put them through
+        the four holes of the base plate.
+      </div>
+      <div id="box">
+        Step 3
+        <img id="horiImg" src="images/final_project/assembly/step3_1.jpg"><br>
+        Take your base plate assembly and keypad support frame.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step3_2.jpg"><br>
+        Assemble them like so. Here any oriantation is fine since the base plate
+        is symmetrical.
+      </div>
+      <div id="box">
+        Step 4
+        <img id="horiImg" src="images/final_project/assembly/step4_1.jpg"><br>
+        Take your arduino pro micro assembly and main assembly.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step4_2.jpg"><br>
+        Slide the back plate of the pro micro assembly into the back slots of
+        the support frame as such. Here you might also want to do some wire
+        management so that you would not get them mixed up when connecting up
+        your other electrical components in the next few steps.
+      </div>
+      <div id="box">
+        Step 5
+        <img id="horiImg" src="images/final_project/assembly/step5_1.jpg"><br>
+        Take your LED mount and 3 white LEDs.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step5_2.jpg"><br>
+        Slide the LEDs into the holes of the LED mount like so. Do ensure that
+        the side of the LED mount with the step is the side that you put the LED
+        through such that the bottom side of the LED is flush with the LED mount
+        surface.
+      </div>
+      <div id="box">
+        Step 6
+        <img id="horiImg" src="images/final_project/assembly/step6_1.jpg"><br>
+        Take your main assembly and LED assembly.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step6_2.jpg"><br>
+        Put the LED anode and cathode through the support frame hole and assemble
+        the LED assembly like so on the right side of the support frame.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step6_3.jpg"><br>
+        Now you can connect up the LEDs to your arduino to the correct ports,
+        do refer back to the wiring diagram for reference.
+      </div>
+      <div id="box">
+        Step 7
+        <img id="horiImg" src="images/final_project/assembly/step7_1.jpg"><br>
+        Take the 2 spacers.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step7_2.jpg"><br>
+        And assemble them to the two screws on the left side of the main assembly,
+        the side without the LED mount.
+      </div>
+      <div id="box">
+        Step 8
+        <img id="horiImg" src="images/final_project/assembly/step8_1.jpg"><br>
+        Take your 4x4 matrix keypad and slide it through the support frame of
+        the main assembly like so.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step8_2.jpg"><br>
+        Now you can connect up the keypad to the arduino. Make sure you know the
+        orientation of the keypad ports to connect them correctly. Refer back to
+        the wiring diagram for reference.
+      </div>
+      <div id="box">
+        Step 9
+        <img id="horiImg" src="images/final_project/assembly/step9_1.jpg"><br>
+        Take the side plates and your main assembly.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/assembly/step9_2.jpg"><br>
+        Slide the plates into the slots of the support frame slots like so. You
+        might shift the keypad out of the way to slide the plate into the front
+        slots.
+      </div>
+      <div id="box">
+        Step 10
+        <img id="horiImg" src="images/final_project/assembly/step10.jpg"><br>
+        Take the top plate, 4 M4 washers, 4 M4 nuts and your main assembly.
+      </div>
+      <div id="box">
+        Fully assembled
+        <img id="horiImg" src="images/final_project/assembly/fully_assembled.jpg"><br>
+        Put the keypad into place on the support frame and assemble the top plate
+        with the four corner holes through the screws as such and tighten the
+        whole thing with the washer and nuts. And finally, you have successfully
+        fully assembled your very own Macro Keypad.
+      </div>
+      <div id="box">
+        <img id="horiImg" src="images/final_project/JordonLimWei_presentation.png">
+      </div>
+      <div>
+        Things to improve on
+      </div>
+      <div id="box">
+        First thing I would like to improve on the design is that despite having
+        a 0.2mm allowance for slide fits, lots of the parts are very hard to
+        slide into place, therefore I would like to maybe increase the allowance
+        to 0.4mm to allow for easier fit when assembling.<br>
+        Second thing I would like to improve on are the fitting of the spacers
+        for the keypad, currently the keypad does slide around due to extra
+        spaceing between the spacers and the keypad and by reducing the gap, it
+        will prevent the keypad from sliding too much.<br>
+        Last thing I would like to improve on is the feet, currently the all the
+        feet are slide fitted onto the head of the screw which was not the
+        original intention as it was originally suppose to be screwed between the
+        screw head and the base plate. To improve on this, the feet should be
+        made bigger such that it can fit onto the head of the screw better.
+      </div>
+      <div>
+        Conclusion
+      </div>
+      <div id="box">
+        After completing this final project, I have come to the end of this
+        course, EP1000. Over the course of this final project, I learnt how to
+        implement and make use of the skills and softwares I learnt throughout
+        the whole course to create a working prototype. I personally feel that
+        the skills and knowledge I obtained here are benefitial to me as it made
+        me see another aspect of how to go about creating a prototype, not only
+        that, the operation of machines such as the 3D printer and laser cutter
+        to digitally fabricate parts made me see how efficient making a component
+        can be and are useful skills to have when I do operate such machines in
+        future. However, the downside of the final project is that I find myself
+        lacking the time to complete the project to my expectations, this could
+        be mainly due to my poor time management and prioritisation though it
+        could also be due to the project deadline is in the mids of my examinations
+        and one thing I would like to do better is probably work on this final
+        project slightly earlier. All in all, I enjoy my time during this course
+        and would recommend it to someone who has the interest of fabricating
+        your own product or simply likes to create something as I genuinely think
+        that this is the course for you.
       </div>
       <div>
         <h2>References</h2>
