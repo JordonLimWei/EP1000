@@ -202,8 +202,9 @@ img, iframe {
 }
 
 #horiVid {
-  width: 90%;
-  height: auto;
+  width: 1000px;
+  height: 500px;
+  display: block;
   margin-left: auto;
   margin-right:auto;
 }
